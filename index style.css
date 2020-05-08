@@ -1,0 +1,63 @@
+body {
+    background-color: rgb(209, 211, 207);
+    overflow: hidden;
+}
+
+.mfrm {
+    border-radius: 25px;
+    border: 2px solid rgb(46, 5, 226);
+    text-align: center;
+    background-color: darkgrey;
+    width: 50%;
+    height: auto;
+    margin: 25%;
+    margin-top: 10%;
+    box-shadow: 2px 2px 10px rgb(0, 195, 255);
+}
+
+.mtb {
+    
+    border: 1px solid rgb(46, 5, 226);
+    text-align: center;
+    margin: 5%;
+    border-collapse: collapse;
+    table-layout: auto;
+    width: 90%;
+    box-shadow: 1px 1px 2px rgb(0, 195, 255);
+}
+
+#mtd {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    
+}
+
+#mtr {
+    border: 1px solid rgb(46, 5, 226);
+    background-color: rgb(214, 215, 248);
+    font-size:2vw;
+    
+}
+
+#mp1 {
+
+    background-color: rgb(145, 145, 144);
+    padding-bottom: 0px;
+    margin-top: 0;
+    margin-bottom: 0;
+    border-bottom: 1px solid rgb(46, 5, 226);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:3vw;
+    
+}
+
+#mtr:hover {
+    background-color: yellow;
+    
+  }
+#mp2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:3vw;
+}
+ 

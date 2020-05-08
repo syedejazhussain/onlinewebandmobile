@@ -1,0 +1,238 @@
+.header {
+    background-color: rgb(89, 89, 245);
+}
+
+.head1 {
+    background-color: rgb(89, 89, 245);
+}
+
+#social {
+    /* background-color: chartreuse; */
+    list-style: none;
+    padding-left: 0;
+    padding-top: 5px;
+}
+
+#soci1 {
+    display: inline;
+    padding-left: 10px;
+    align-content: center;
+}
+
+#mbtdo {
+    list-style-type: none;
+    padding-top: 5px;
+}
+
+#btdo {
+    list-style-type: none;
+    font-size: 10px;
+    width: 82px;
+    height: 25px;
+}
+
+.saylogo {
+    width: 180px;
+}
+
+.slidimg1 {
+    height: 10px;
+    width: 100%;
+}
+
+@media only screen and (max-width: 1600px) {
+    .slidimg {
+        width: 100%;
+        height: 480px;
+    }
+}
+
+@media only screen and (max-width: 999px) {
+    .slidimg {
+        width: 100%;
+        height: 460px;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    .slidimg {
+        width: 100%;
+        height: 50%;
+    }
+}
+
+@media only screen and (max-width: 800px) {
+    .slidimg {
+        width: 100%;
+        height: 50%;
+    }
+}
+
+.intro {
+    width: 70% !important;
+}
+
+.intro1 {
+    height: 150px !important;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.blubar {
+    padding-top: 70px;
+    padding-bottom: 70px;
+    margin-top: 20px;
+    background-color: rgb(0, 110, 255);
+    margin-bottom: 20px;
+}
+
+.bbimg {
+    width: 40px;
+}
+
+.ncount {
+    font-size: 3em;
+    font-family: 'Calibri', 'Trebuchet MS', sans-serif;
+}
+
+.blubar1 {
+    background-color: rgb(0, 110, 255);
+}
+
+.nname {
+    color: white;
+    font-weight: bold;
+    font-family: 'Calibri', 'Trebuchet MS', sans-serif;
+}
+
+.mgreen {
+    color: rgb(22, 236, 22);
+}
+
+.box4 {
+    height: 200px !important;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.boximg {
+    padding-top: 10px;
+    width: 70px;
+}
+
+.boxh1 {
+    padding-top: 20px;
+    color: blue;
+    font-weight: bold;
+}
+
+.mipro1 {
+    background-color: white;
+}
+
+.col1 {
+    background-color: yellow;
+    height: 50px;
+    width: 10px !important;
+    margin-top: 10px;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.box5 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.box6 {
+    margin-top: 10px;
+    margin-bottom: 5px;
+    margin-left: 5px;
+    height: 80px;
+}
+
+.mpigm {
+    margin-top: 25px;
+}
+
+.txsp {
+    padding-left: 20px;
+}
+
+.upev1 {
+    padding-top: 20px;
+    color: blue;
+    font-weight: bold;
+}
+
+.tiker1 {
+    margin-top: 10px;
+    background-color: blue;
+}
+
+.imggal {
+    background-color: white;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#demo {
+    height: 100%;
+    position: relative;
+    overflow: hidden;
+}
+
+.green {
+    background-color: #6fb936;
+}
+
+.thumb {
+    margin-bottom: 30px;
+}
+
+.page-top {
+    margin-top: 85px;
+}
+
+.modal-header {
+    border-bottom: none;
+}
+
+.modal-title {
+    color: #000;
+}
+
+.modal-footer {
+    display: none;
+}
+
+footer {
+    background-color: blue;
+    height: 40px;
+}
+
+.zoom {
+    transition: transform .2s;
+    /* Animation */
+}
+
+.zoom:hover {
+    transform: scale(1.2);
+    /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
+
+.addrs {
+    color: white;
+    margin-top: 20px;
+}
+
+.bbt {
+    width: 80px;
+    margin-left: 93%;
+    margin-bottom: 20px;
+}
+html {
+    scroll-behavior: smooth;
+  }
+
+  
