@@ -1,0 +1,397 @@
+@font-face {
+    font-family: headname;
+    src: url(font/KaushanScript-Regular.ttf);
+}
+
+@font-face {
+    font-family: headname1;
+    src: url(font/DaysOne-Regular.ttf);
+}
+
+@font-face {
+    font-family: subhead;
+    src: url(font/Niconne-Regular.ttf);
+}
+
+.body1 {
+    scroll-behavior: smooth;
+    /* background-color: rgb(226, 240, 148); */
+}
+
+::-webkit-scrollbar {
+    width: 5px;
+}
+
+/* Track */
+
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+
+/* Handle */
+
+::-webkit-scrollbar-thumb {
+    background: rgb(143, 40, 3);
+}
+
+/* Handle on hover */
+
+::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
+
+.fimg {
+    width: 100%;
+    height: 100px;
+    background-color: aqua;
+}
+
+.frimg {
+    position: absolute;
+    left: 0px;
+    z-index: 1;
+    /* width: 100%;
+    height: 100%; */
+}
+
+.nvbar1 {
+    background-color: rgba(111, 238, 111, 0.863) !important;
+    /* border-top-style: solid; */
+    border-bottom: solid;
+    border-color: rgb(143, 40, 3);
+    border-width: 3px;
+}
+
+.logo1 {
+    height: 40px;
+    width: 110px;
+}
+
+.slider1 {
+    margin-top: 70px;
+}
+
+.headname {
+    margin-left: 32%;
+    color: brown;
+    font-family: headname;
+    text-shadow: 2px 2px #0ece08;
+}
+
+.mmanew {
+    font-family: headname1;
+    font-size: medium;
+}
+
+.mmanew1 {
+    color: brown !important;
+}
+
+.subtex {
+    font-size: small;
+    padding: 3px;
+    /* line-height: 1; */
+    color: white;
+    margin-left: 2em;
+    margin-right: 2em;
+}
+.subtex1 {
+    font-size: small;
+    /* padding: 3px; */
+    /* line-height: 1; */
+    color: white;
+    margin-left: 2em;
+    margin-right: 2em;
+    margin: 0px !important;
+}
+
+.bgcolor {
+    background-color: rgba(111, 238, 111, 0.863);
+    border-top: solid;
+    border-bottom: solid;
+    border-color: rgb(143, 40, 3) !important;
+    border-width: 3px;
+}
+
+.bgcolor1 {
+    background-color: green;
+    color: white;
+}
+
+.bline {
+    margin-top: 2px;
+    margin-bottom: 10px;
+}
+
+.cg1 {
+    margin-bottom: 10px;
+}
+
+@media screen and (max-width: 767px) {
+    .cg1 {
+        margin-left: 12%;
+    }
+}
+
+.socil {
+    text-decoration: none !important;
+    color: brown;
+}
+
+.footer1 {
+    padding-top: 2em;
+    padding-bottom: 2em;
+}
+
+.cardtext {
+    font-size: small;
+}
+
+.video-fluid {
+    max-height: 450px;
+    pointer-events: none;
+    object-fit: fill;
+}
+
+.parallax {
+    /* The image used */
+    background-image: url("images/Para1.jpg");
+    /* Set a specific height */
+    min-height: 300px;
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* opacity: 0.7 */
+}
+
+.grad1 {
+    /* height: 115px; */
+    background-color: red;
+    /* For browsers that do not support gradients */
+    background-image: linear-gradient(rgb(67, 197, 6), yellow);
+    /* Standard syntax (must be last) */
+    margin-bottom: 0px !important;
+}
+
+.parallax1 {
+    /* The image used */
+    background-image: url("images/para2.jpg");
+    /* Set a specific height */
+    min-height: 300px;
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* opacity: 0.7 */
+}
+
+.parallax2 {
+    /* The image used */
+    background-image: url("images/Para4.jpg");
+    /* Set a specific height */
+    min-height: 300px;
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* opacity: 0.7 */
+}
+
+.parallax4 {
+    /* The image used */
+    background-image: url("images/ab-1.jpg");
+    /* Set a specific height */
+    min-height: 300px;
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* opacity: 0.5 */
+}
+
+.parallax5 {
+    /* The image used */
+    background-image: url("images/ab-1.jpg");
+    /* Set a specific height */
+    min-height: 100px;
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* opacity: 0.5 */
+}
+.maincard{
+    margin-top: 70px !important;
+}
+
+
+.ifsize{
+
+    width: 100%;
+    height: 200px !important;
+}
+.parallax6 {
+    /* The image used */
+    background-image: url("images/ab-2.jpg");
+    /* Set a specific height */
+    min-height: 300px;
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* opacity: 0.5 */
+}
+
+.parallax7 {
+    /* The image used */
+    background-image: url("images/ab-2.jpg");
+    /* Set a specific height */
+    min-height: 100px;
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* opacity: 0.5 */
+}
+
+.btn-primary {
+    background-color: #E7A331;
+    color: #ffffff;
+    border: 2px solid #E7A331;
+    text-transform: uppercase;
+    border-radius: 4px;
+}
+.btn-primary:hover {
+    background-color: #d6962c;
+    border-color: #d6962c;
+    color: #fff;
+}
+
+.portfolio{
+    background:url(assets/images/portfoliobg.jpg) center top no-repeat;
+    -moz-background-size: cover;
+    -webkit-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    width: 100%;
+    overflow: hidden;	
+}
+
+.portfolio_content{
+    padding-bottom:120px;
+    display:inline-block;
+}
+.portfolio .portfolio_content .head_title h3{
+    color:#000000;
+}
+.portfolio .portfolio_content .head_title h4{
+    color:#000000;
+}
+
+.single_portfolio_text{
+    display:inline-block;
+    padding:0;
+    position:relative;
+    overflow:hidden;
+
+}
+.single_portfolio_text img{
+    width:100%;
+}
+
+.single_portfolio_text:hover .portfolio_images_overlay{
+    top:5%;
+    left: 5%;
+}
+
+.portfolio_images_overlay{
+    width: 90%;
+    height: 90%;
+    background: rgba(0, 0, 0, .5);
+    padding: 20px;
+    margin: 0 auto;
+    top:-100%;
+    left: 5%;
+    position: absolute;
+    transition:.6s;
+}
+.portfolio_images_overlay h6{
+    text-transform:uppercase;
+    color:#fff;
+    font-size:2rem;
+    line-height:2.575rem;
+    font-weight: 500;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+}
+
+.portfolio_images_overlay p.product_price{
+    font-size:2.5725rem;
+    color:#fff;
+    line-height:3rem;
+}
+.portfolio_images_overlay .btn{
+    margin-top: 25px;
+}
+
+@media (min-width:769px) and (max-width:991px) {
+    .portfolio_images_overlay {
+        padding: 0px;
+    }
+}
+@media (max-width:768px) {
+    .portfolio_images_overlay{
+        padding: 170px 20px;
+    }
+}
+@media (max-width:580px) {
+    .portfolio_images_overlay{
+        padding: 100px 20px;
+    }
+}
+@media (max-width:480px) {
+    .portfolio_images_overlay{
+        padding: 40px 20px;
+    }
+}
+@media (max-width:320px) {
+    .portfolio_images_overlay{
+        padding: 20px;
+    }
+}
+
+.parallax8 {
+    /* The image used */
+    background-image: url("images/ab-3.jpg");
+    /* Set a specific height */
+    min-height: 300px;
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* opacity: 0.5 */
+}
+
+.parallax9 {
+    /* The image used */
+    background-image: url("images/ab-3.jpg");
+    /* Set a specific height */
+    min-height: 100px;
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* opacity: 0.5 */
+}
+
+
